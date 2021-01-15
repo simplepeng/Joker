@@ -28,3 +28,14 @@ android {
 dependencies {
     api 'androidx.appcompat:appcompat:1.2.0'
 }
+
+apply plugin: 'com.github.panpf.bintray-publish'
+
+publish {
+    userOrg = 'panpf'
+    groupId = 'com.github.pnapf.bintray-publish'
+    artifactId = 'bintray-publish'
+    publishVersion = '1.0.0'
+    desc = 'Oh hi, this is a nice description for a project, right?'
+    website = 'https://github.com/panpf/bintray-publish'
+}
