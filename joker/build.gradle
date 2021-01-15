@@ -32,10 +32,10 @@ dependencies {
 apply plugin: 'com.github.panpf.bintray-publish'
 
 publish {
-    userOrg = 'panpf'
-    groupId = 'com.github.pnapf.bintray-publish'
-    artifactId = 'bintray-publish'
+    userOrg = 'simple'
+    groupId = 'com.tencent'
+    artifactId = 'joker'
     publishVersion = '1.0.0'
-    desc = 'Oh hi, this is a nice description for a project, right?'
-    website = 'https://github.com/panpf/bintray-publish'
+    desc = 'Are You Joker?'
+    website = 'https://github.com/simplepeng/Joker'
 }
