@@ -15,7 +15,6 @@ import me.simple.deadpool.DeadPool;
 public class JokerInitProvider extends ContentProvider {
     @Override
     public boolean onCreate() {
-        Log.d("xxx", "自动初始化成功");
         DeadPool.init();
         return false;
     }
