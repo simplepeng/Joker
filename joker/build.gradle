@@ -32,7 +32,7 @@ dependencies {
 apply plugin: 'com.github.panpf.bintray-publish'
 
 publish {
-    userOrg = 'simple'
+    userOrg = 'simplepeng'
     groupId = 'com.tencent'
     artifactId = 'joker'
     publishVersion = '1.0.0'
