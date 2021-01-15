@@ -9,10 +9,14 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import me.simple.deadpool.DeadPool;
+
+
 public class JokerInitProvider extends ContentProvider {
     @Override
     public boolean onCreate() {
         Log.d("xxx", "自动初始化成功");
+        DeadPool.init();
         return false;
     }
 

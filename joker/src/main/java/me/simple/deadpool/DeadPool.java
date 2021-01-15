@@ -1,4 +1,4 @@
-package deadpool;
+package me.simple.deadpool;
 
 public class DeadPool {
 
